@@ -1,0 +1,25 @@
+class Locators:
+    according_heading = 'accordion__heading-0'
+    question = 'accordion__heading-'
+    question_text = 'accordion__panel-'
+    up_order_button = "//div[contains(@class, 'Header_Nav')]//button[text()='Заказать']"
+    order_button = "//div[contains(@class, 'Button')]//button[text()='Заказать']"
+    name_field = "[placeholder = '* Имя']"
+    surname_field = "[placeholder = '* Фамилия']"
+    adress_field = "[placeholder = '* Адрес: куда привезти заказ']"
+    undgrnd_station_field = "[placeholder = '* Станция метро']"
+    phonenum_field = "[placeholder = '* Телефон: на него позвонит курьер']"
+    next_button = "[class *= 'Order_NextButton'] button"
+    date = "[placeholder = '* Когда привезти самокат']"
+    term_field = "[class = 'Dropdown-placeholder']"
+    term = "[class = 'Dropdown-option']"
+    colour_black = "[id = 'black']"
+    colour_grey = "[id = 'grey']"
+    comment = "[placeholder = 'Комментарий для курьера']"
+    order_confirmation_button = "//div[contains(@class, 'Button')]//button[text()='Да']"
+    order_made = "[class *= 'Order_ModalHeader']"
+    check_status_button = "[class *= 'Order_NextButton'] button"
+    samokat_logo = "[class *= 'Header_LogoScooter']"
+    samokat_main_page = "[class *= 'Home_Header']"
+    yandex_logo = "[href = '//yandex.ru']"
+    dzen_main_page = "[class *= 'dzen']"
